@@ -31,7 +31,7 @@
    It's a composer based package. \
    Installation is as easy as:
    #+BEGIN_SRC sh
-   composer require OnzCoin/onz-php-api
+   composer require onzcoin/onz-php-api
    #+END_SRC
 
 ** Usage:
