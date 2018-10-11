@@ -1,0 +1,31 @@
+{
+  "name": "onzcoin/onz-php-api",
+  "description": "A php wrapper for the onz api.",
+  "type": "library",
+  "keywords": ["php","onz","onzcoin","onzspace"],
+  "homepage": "https://github.com/OnzCoin/OnzPHP",
+  "license": "GPL-3.0",
+  "authors": [
+    {
+      "name": "ONZ Coin Team",
+      "email": "hi@onzcoin.com",
+      "homepage": "https://www.onzcoin.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "tcdent/php-restclient": "^0.1.6"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "6.2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Onz\\": [
+        "src/onz",
+        "src/lib"
+      ]
+    }
+  }
+}
